@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.rounded-img {
+    /*width: 100%;*/
+    border-radius: 50%;
+    /*aspect-ratio: 1/1;*/
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(26, 9, 9, 0.8);
+    padding: 0.5em;
+    margin-bottom: 1em ;
+}
+
+.card {
+    border-radius: 1em;
+    text-align: center;
+    padding: 1em;
+}
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.card img {
+    border-radius: 50%;
+    width: 60%;
+    height: auto;
+    margin: auto;
+}

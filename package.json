@@ -1,0 +1,22 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "http-server -c day2.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/George-Kuzmin/internship.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/George-Kuzmin/internship/issues"
+  },
+  "homepage": "https://github.com/George-Kuzmin/internship#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
